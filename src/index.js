@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// https://stackoverflow.com/questions/50819162/why-is-my-function-being-called-twice-in-react
 ReactDOM.render(
   <React.StrictMode>
     <App />

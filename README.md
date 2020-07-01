@@ -7,3 +7,5 @@
 5. Fill out access keys, region, and AWS Connect instance GUID in `.env.local`
 6. Cusomtize metrics to be displayed on dashboard using and threshold for colors using `REACT_APP_QUADRANT_#_METRIC_XXX` variables in `.env.local`
 7. Run `npm run build`
+
+![Screenshot](/screenshot.png "Screenshot")

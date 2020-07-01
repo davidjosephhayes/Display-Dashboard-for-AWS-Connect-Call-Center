@@ -10,7 +10,7 @@
   pointer-events: none;
 }
 
-.App-header {
+.App-message {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,15 +22,64 @@
   color: #61dafb;
 }
 
-dl {
-  margin-bottom: 0;
+.App-huge {
+  font-size: calc(10px + 20vmin);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-green {
+  background: #44bd32;
+}
+
+.App-yellow {
+  background: #e1b12c;
+}
+
+.App-red {
+  background: #c23616;
+}
+
+.App-metrics {
+  box-sizing: border-box;
+  min-height: 100vh;
+  border: 1px solid #fff;
+  /* flex parent */
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.App-body {
+  box-sizing: border-box;
+  /* flex child */
+  flex-grow: 1;
+  /* flex parent */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-quadrant {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  /* flex child */
+  flex-grow: 1;
+  flex-basis: 50%;
+  /* flex parent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-quadrant p {
+  margin: 0;
+}
+
+.App-footer {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #fff;
+  color: #000;
 }

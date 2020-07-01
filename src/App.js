@@ -223,6 +223,8 @@ const App = () => {
               if (metricName==='OLDEST_CONTACT_AGE')
                 metricValue /= 60000;
 
+              metricValue = Math.round(metricValue);
+
               metricDisplay = metricDisplay.split(metricName).join(metricValue);
               metricDesc = metricDesc.split(metricName).join(metricValue);
               metricGreen = metricGreen.split(metricName).join(metricValue);
